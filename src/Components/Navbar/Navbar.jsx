@@ -14,8 +14,12 @@ const Navbar = () => {
         <Link to="/about" className="aboutUs-link">
           About us
         </Link>
+        <Link to="/team" className="aboutUs-link">
+          Teams
+        </Link>
         <h4 className="navbar__text">Sign In</h4>
         <MenuIcon className="navbar__menu" />
+      
       </div>
     </div>
   );
