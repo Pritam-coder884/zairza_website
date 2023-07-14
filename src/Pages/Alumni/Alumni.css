@@ -49,13 +49,14 @@
     padding-left: 5px;
     padding-top: 5px;
     /* padding-bottom: 10px; */
-    height: 120px;
+    height: 90px;
     text-align: left;
     position: absolute;
     border-radius:0 0 1pc 1pc;
     /* margin-top: 2pc; */
     /* margin-bottom: 78pc; */
     top:17pc;
+    padding-bottom:0px;
 }
 /* .des{
      background-color: navy;

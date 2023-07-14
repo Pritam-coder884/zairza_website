@@ -17,6 +17,9 @@ const Navbar = () => {
         <Link to="/team" className="aboutUs-link">
           Teams
         </Link>
+        <Link to="/alumni" className="aboutUs-link">
+         Alumni
+        </Link>
         <h4 className="navbar__text">Sign In</h4>
         <MenuIcon className="navbar__menu" />
       
