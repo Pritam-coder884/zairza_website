@@ -33,7 +33,7 @@ const Navbar = () => {
     </div>
     </div>
       ):(
-    <div className="main_navbar" onClick={close}>
+    <div className="main_navbar">
       <div className="sub_nav">
       <div className="navbar">
       <div className="navbar__left">
