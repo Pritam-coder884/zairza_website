@@ -1,6 +1,4 @@
 import React from "react";
-import Logo from "../../Assets/images/zairza_logo.png";
-import menu from "../../Assets/images/Hamburger Menu.png";
 import "./Faq.scss";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";

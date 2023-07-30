@@ -1,24 +1,22 @@
 import React from "react";
 import "./Domain.scss";
-import Logo from "../../Assets/images/zairza_logo.png";
-import menu from "../../Assets/images/Hamburger Menu.png";
-import Embedded_system from "../../Assets/images/Embedded-systems.png";
-import Internet_of_things from "../../Assets/images/Internet-of-things.png";
-import AI from "../../Assets/images/AI.png";
-import ML from "../../Assets/images/ML.png";
-import Robot_operating_system from "../../Assets/images/Robot-operating-system.png";
-import Dev_ops from "../../Assets/images/Dev-ops.png";
-import blockchain from "../../Assets/images/blockchain.png";
-import cloud from "../../Assets/images/cloud.png";
-import web_dev from "../../Assets/images/web-dev.png";
-import App_dev from "../../Assets/images/App-dev.png";
-import cyber_security from "../../Assets/images/cyber-security.png";
-import web_application from "../../Assets/images/web-application.png";
-import react_native from "../../Assets/images/react-native.png";
-import game_dev from "../../Assets/images/game-dev.png";
-import CP from "../../Assets/images/CP.png";
-import design from "../../Assets/images/design.png";
-import video_editing from "../../Assets/images/video-editing.png";
+import Embedded_system from "../../Assets/images/domains/Embedded-systems.png";
+import Internet_of_things from "../../Assets/images/domains/Internet-of-things.png";
+import AI from "../../Assets/images/domains/AI.png";
+import ML from "../../Assets/images/domains/ML.png";
+import Robot_operating_system from "../../Assets/images/domains/Robot-operating-system.png";
+import Dev_ops from "../../Assets/images/domains/Dev-ops.png";
+import blockchain from "../../Assets/images/domains/blockchain.png";
+import cloud from "../../Assets/images/domains/cloud.png";
+import web_dev from "../../Assets/images/domains/web-dev.png";
+import App_dev from "../../Assets/images/domains/App-dev.png";
+import cyber_security from "../../Assets/images/domains/cyber-security.png";
+import web_application from "../../Assets/images/domains/web-application.png";
+import react_native from "../../Assets/images/domains/react-native.png";
+import game_dev from "../../Assets/images/domains/game-dev.png";
+import CP from "../../Assets/images/domains/CP.png";
+import design from "../../Assets/images/domains/design.png";
+import video_editing from "../../Assets/images/domains/video-editing.png";
 
 const Domain = () => {
   const data = [

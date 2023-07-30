@@ -1,14 +1,3 @@
-@font-face {
-    font-family: Gilroy;
-    font-weight: lighter;
-    src: url('../../Assets/fonts/Gilroy-Light.otf');
-}
-
-@font-face {
-    font-family: Gilroy;
-    font-weight: bold;
-    src: url('../../Assets/fonts/Gilroy-ExtraBold.otf');
-}
 
 body {
     margin: 0;
@@ -17,7 +6,6 @@ body {
 
 .eudp {
     overflow-y: scroll;
-    font-family: Gilroy, sans-serif;
 
     &::-webkit-scrollbar {
         display: none;
@@ -26,17 +14,15 @@ body {
     .eudp_top {
         width: 100vw;
         height: 15rem;
-        background: url("../../Assets/images/upcoming_event_title.png");
+        background: url("../../Assets/images/event_details.png");
         background-size: cover;
         background-position: bottom;
         color: #ffffff;
         display: flex;
-        justify-content: center;
+        justify-content:flex-start;
+        padding:3rem;
 
         .eudp_titles {
-            margin: auto;
-            margin-left: 3rem;
-
             .event_title {
                 margin-bottom: 20px;
                 font-weight: 700;
@@ -56,12 +42,13 @@ body {
 
     .eudp_mid {
         width: 80vw;
-        margin: auto;
+        margin:3rem;
         margin-top: 2rem;
         position: relative;
         margin-bottom: 2rem;
 
         .abtEvent {
+            font-family: 'Gilroy-Light';
             .eveDesc {
                 color: #344054;
                 margin: 1rem 0;
@@ -84,10 +71,20 @@ body {
                 }
             }
         }
+        .abtEvent h3{
+            font-size: 32px;
+            font-family: 'Gilroy-ExtraBold';
+        }
 
         .organisers {
             margin: 2rem 0;
             height: max-content;
+            font-family: 'Gilroy-Light';
+
+            .orgheading{
+                font-size: 32px;
+                font-family: 'Gilroy-ExtraBold';
+            }
 
             .orgdiv {
                 margin-top: 1rem;
@@ -140,7 +137,11 @@ body {
         }
     }
 }
-
+@media(max-width:780px){
+    .event_title{
+        margin-left:-0.2rem;
+    }
+}
 @media(max-width: 420px) {
     .orgdiv {
         margin-top: 1rem;
