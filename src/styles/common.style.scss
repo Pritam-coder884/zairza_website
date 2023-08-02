@@ -84,6 +84,11 @@
         font-family: 'Gilroy-ExtraBold';
     }
 }
+@media(min-width:1226px){
+    .event_card{
+        justify-content: start !important;
+    }
+}
 @media(max-width:780px){
     .event__search__box{
         flex-direction: column;
