@@ -1,0 +1,49 @@
+.card__container{
+    font-family: 'Gilroy-Light';
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow:0.1rem 0.25rem 0.5rem #C4C4C4;
+    .card__image{
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    .card__content{
+        padding:1rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap:0.5rem;
+    }
+    .card__dtp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:0.5rem;
+    }
+    .card__title{
+        font-family: 'Gilroy-ExtraBold';
+    }
+    .card__dtp_item{
+        display: flex;
+        align-items: center;
+        gap:0.2rem;
+        color:rgb(92, 90, 90);
+        font-weight: bold;
+    }
+    .card__dtp_icon{
+        font-size:18px;
+        color: #1071FF;
+    }
+    .card__desc_box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card__desc_icon{
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background-color: #003685;
+        padding:3px 5px 0.5px 5px;
+    }
+}

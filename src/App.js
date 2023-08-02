@@ -1,22 +1,22 @@
 import React from 'react';
 import {Route,Routes} from "react-router-dom";
 import Main from "./Pages/Main/Main";
-import Blogs from './Pages/Blogs/Blogs';
-import BlogDetails from './Pages/BlogDetails/BlogDetails';
-import Projects from './Pages/Projects/Projects';
-import ProjectsDetails from './Pages/ProjectsDetails/ProjectsDetails';
 import Achievements from "./Pages/Achievements/Achievement";
 import Faq from "./Pages/Faq/Faq";
 import Domains from "./Pages/Domains/Domain";
-import Events from "./Pages/Events/Events";
-import Eventudp from "./Pages/Eventudp/Eventudp";
 import Navbar from './Components/Navbar/Navbar';
 import Footer from "./Components/Footer/Footer";
-import Teams from "./Pages/Teams/Team";
+import Event from './Pages/Event/Event';
+import EventDetails from "./Pages/Eventudp/Eventudp";
+import Blog from './Pages/Blogs/Blog';
+import Project from './Pages/Project/Project';
+import Teams from "./Pages/Teams/Teams";
 import Alumni from "./Pages/Alumni/Alumni";
 import AboutUs from './Pages/AboutUs/AboutUs';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import BlogDetails from './Pages/Blogs/BlogDetails';
+import ProjectDetails from './Pages/Project/ProjectDetails';
 
 function App() {
   const ScrollToTop = () => {
@@ -31,19 +31,17 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/blogs" element={<Blogs/>} />
-        <Route path="/blog-details" element={<BlogDetails/>}/>
-        <Route path="/projects" element={<Projects/>}/>
-        <Route path="/projectsDetails" element={<ProjectsDetails/>}/>
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/faq" element={<Faq/>} />
         <Route path="/domains" element={<Domains />} />
-        <Route path="/events" element={<Events/>} />
-        <Route path="/eventudp" element={< Eventudp/>} />
-
+        <Route path="/projects" element={<Project/>} />
+        <Route path="/project-details" element={<ProjectDetails/>} />
         <Route path="/teams" element={<Teams/>} />
-        <Route path="/alumni" element={<Alumni/>} />
-
+        <Route path="/alumni" element={<Alumni/>} /> 
+        <Route path="/blogs" element={<Blog/>} />
+        <Route path="/blog-details" element={<BlogDetails/>} />
+        <Route path="/events" element={<Event/>} />
+        <Route path="event-details" element={<EventDetails/>} />
         <Route path="/about" element={<AboutUs/>} />
       </Routes>
       <Footer />

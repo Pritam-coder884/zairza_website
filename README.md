@@ -1,5 +1,6 @@
-  # Zariza website : 2023 #
+  # Zariza website : 2023 #  
 
+hosted link : https://zairza-website.vercel.app/
 
 1. Fork the repository 
 

@@ -45,7 +45,7 @@ const Eventudp = () => {
                 </div>
                 <div className="eudp_mid">
                     <div className="abtEvent">
-                        <h3 style={{fontWeight: "bold", fontSize: "32px"}} >All About The Event</h3>
+                        <h3>All About The Event</h3>
                         <div className="eveDesc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis pariatur possimus repellat fugit omnis dignissimos quo alias, esse aliquam? Eos animi harum fugit blanditiis ducimus, nostrum dignissimos quos? Consequuntur, sit nam! Facere sapiente vitae doloremque corporis, voluptas consequatur officia dolor ab nesciunt corrupti nulla recusandae maiores veritatis quas quibusdam vel!
                         </div>
@@ -59,7 +59,7 @@ const Eventudp = () => {
                         </div>
                     </div>
                     <div className="organisers">
-                        <h3 className='orgheading' style={{fontWeight: "bolder", fontSize: "32px"}} >Organisers</h3>
+                        <h3 className='orgheading'>Organisers</h3>
                         <div className="orgdiv">
                             {
                                 organisers?.map((item, id)=>(
