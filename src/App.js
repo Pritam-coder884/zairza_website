@@ -17,6 +17,8 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import BlogDetails from './Pages/Blogs/BlogDetails';
 import ProjectDetails from './Pages/Project/ProjectDetails';
+import Login from './Pages/LogIn/Login';
+import Signup from './Pages/LogIn/Signup';
 
 function App() {
   const ScrollToTop = () => {
@@ -43,6 +45,8 @@ function App() {
         <Route path="/events" element={<Event/>} />
         <Route path="event-details" element={<EventDetails/>} />
         <Route path="/about" element={<AboutUs/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<Signup/>} />
       </Routes>
       <Footer />
     </div>
