@@ -10,7 +10,7 @@ import Event from './Pages/Event/Event';
 import EventDetails from "./Pages/Eventudp/Eventudp";
 import Blog from './Pages/Blogs/Blog';
 import Project from './Pages/Project/Project';
-// import Teams from "./Pages/Teams/Team";
+import Teams from "./Pages/Teams/Teams";
 import Alumni from "./Pages/Alumni/Alumni";
 import AboutUs from './Pages/AboutUs/AboutUs';
 import { useEffect } from 'react';
@@ -36,7 +36,7 @@ function App() {
         <Route path="/domains" element={<Domains />} />
         <Route path="/projects" element={<Project/>} />
         <Route path="/project-details" element={<ProjectDetails/>} />
-        {/* <Route path="/teams" element={<Teams/>} />*/}
+        <Route path="/teams" element={<Teams/>} />
         <Route path="/alumni" element={<Alumni/>} /> 
         <Route path="/blogs" element={<Blog/>} />
         <Route path="/blog-details" element={<BlogDetails/>} />
