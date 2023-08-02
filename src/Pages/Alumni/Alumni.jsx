@@ -3,37 +3,91 @@ import "../../styles/common.style.scss";
 import Card from '../../Components/Card/Card'
 
 const Alumni = () => {
-    const pastEventData=[
+    const alumniData=[
         {
-            img:require("../../Assets/images/card/c-1.png"),
-            title:"Lorem ipsum dolor sit amet.",
-            desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
+            detailNo:1,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
         },
         {
-            img:require("../../Assets/images/card/c-2.png"),
-            title:"Lorem ipsum dolor sit amet.",
-            desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
+            detailNo:2,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
         },
         {
-            img:require("../../Assets/images/card/c-3.png"),
-            title:"Lorem ipsum dolor sit amet.",
-            desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
+            detailNo:3,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
         },
         {
-            img:require("../../Assets/images/card/c-3.png"),
-            title:"Lorem ipsum dolor sit amet.",
-            desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugased. Aliquam.",
+            detailNo:4,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
+        },
+        {
+            detailNo:5,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
+        },
+        {
+            detailNo:6,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
+        },
+        {
+            detailNo:7,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
+        },
+        {
+            detailNo:8,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
+        },
+        {
+            detailNo:9,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
+        },
+        {
+            detailNo:10,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
+        },
+        {
+            detailNo:11,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
+        },
+        {
+            detailNo:12,
+            img:require("../../Assets/images/blogs-details-img-1.png"),
+            title: "Gunjan Giri",
+            desc: "Coordinator",
         },
      ]
   return (
     <div className='event__container'>
-        <div className="events_heading_box" style={{display : "flex", flexDirection: "row"}}>
-            <h1 className="events_heading" style={{width:"25%", padding :"3rem"}}>Lets Meet Our Alumni</h1>
-            <p style={{width:"75%" , padding :"3rem"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum corrupti iusto dicta quasi, necessitatibus sunt voluptates, quae minima unde, magni assumenda dolorum soluta delectus quibusdam enim incidunt reprehenderit vitae vero beatae est velit nam amet expedita? Maiores esse eligendi, optio aut libero animi eos tempora ratione, corrupti illum suscipit maxime.</p>     
+        <div className="alumni_top_box">
+            <h1 className="alumni_heading">Lets Meet Our Alumni</h1>
+            <p className='alumni_para'>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis laboriosam quaerat explicabo repellendus dolores vero laudantium at aliquid velit voluptas iusto optio repudiandae nemo reprehenderit, corrupti asperiores doloribus illo soluta dolore? Illo libero ipsa illum voluptate, exercitationem eum harum nesciunt praesentium, odit modi, recusandae fugiat possimus error. Autem fuga mollitia quia a omnis nihil maxime aperiam assumenda aspernatur ullam impedit rem, voluptas esse molestiae, ab ea culpa praesentium unde. Quidem magni quibusdam et quasi consectetur dolor hic quaerat beatae!
+            </p>     
         </div>
-        <div className="event_card" style={{marginBottom:"1rem", padding :"0rem 6rem"}} >
-        {pastEventData.map((data,id)=>{
-            return <Card data={data} key={id} width="360px" />
+        <div className="alumni_card">
+        {alumniData.map((details,id)=>{
+            return <Card data={details} key={id} width="270px" alumniBackground="#00255C" borderBottomLeft="none" borderBottomRight="none" alumniColor="white" />
         })}
         </div>
     </div>

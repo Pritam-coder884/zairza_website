@@ -5,13 +5,13 @@ import HistoryToggleOffSharpIcon from "@mui/icons-material/HistoryToggleOffSharp
 import PinDropOutlinedIcon from "@mui/icons-material/PinDropOutlined";
 import MailOutlineRoundedIcon from "@mui/icons-material/MailOutlineRounded";
 
-const Card = ({ data,width}) => {
+const Card = ({ data,width,alumniBackground,alumniColor}) => {
   return (
     <div className="card__container" style={{width}}>
       <div className="card__image__box">
-        <img className="card__image" src={data.img} alt="" />
+        <img className="card__image" src={data.img} alt=""  />
       </div>
-      <div className="card__content">
+      <div className="card__content" style={{backgroundColor:alumniBackground,color:alumniColor}} >
         <div className="card__title">{data.title}</div>
         <div className="card__desc_box">
           <div className="card__desc">{data.desc}</div>

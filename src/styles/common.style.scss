@@ -77,16 +77,42 @@
         justify-content:space-around;
         gap:1.5rem;
     }
+    .alumni_card{
+        padding:1.2rem 3rem 3rem 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:space-around;
+        gap:1.5rem;
+    }
     .events_heading_box{
         padding:0rem 3rem;
     }
     .events_heading{
         font-family: 'Gilroy-ExtraBold';
     }
+    .alumni_top_box{
+        padding:1.2rem 3rem;
+        display: flex;
+    }
+    .alumni_heading{
+        width:25%;
+    }
+    .alumni_para{
+        width:75%;
+    }
 }
 @media(min-width:1226px){
     .event_card{
         justify-content: start !important;
+    }
+}
+@media(max-width:954px){
+    .alumni_top_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media(max-width:780px){
