@@ -1,3 +1,13 @@
+@font-face {
+	font-family: Gilroy;
+	font-weight: lighter;
+	src: url(../../Assets/fonts/Gilroy-MediumItalic.ttf)
+  }
+@font-face {
+	font-family: Gilroy;
+	font-weight: bolder;
+	src: url(../../Assets/fonts/Gilroy-ExtraBold.ttf)
+  }
 .footer-container {
 	background-color: #00255c;
 	font-family: "Gilroy-Light";
@@ -23,8 +33,7 @@
 }
 .footer-container__title {
 	font-size:50px;
-	font-family: "Gilroy-Bold";
-	font-weight:550;
+	font-weight:bolder;
 	margin-right: 30%;
 	color: white;
 	padding-bottom: 1rem;

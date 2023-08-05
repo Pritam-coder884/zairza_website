@@ -24,10 +24,10 @@ code {
 }
 @font-face {
   font-family: 'Gilroy-Light';
-  src: url('./Assets/fonts/Gilroy-Light.otf');
+  src: url('./Assets/fonts/Gilroy-Light.ttf');
 }
 
 @font-face {
   font-family: 'Gilroy-ExtraBold';
-  src: url('./Assets/fonts/Gilroy-ExtraBold.otf');
+  src: url('./Assets/fonts/Gilroy-ExtraBold.ttf');
 }
