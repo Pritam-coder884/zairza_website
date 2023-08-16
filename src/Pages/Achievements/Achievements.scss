@@ -5,6 +5,12 @@
 }
 @font-face {
   font-family: Gilroy;
+  font-weight: normal;
+  src: url(../../Assets/fonts/Gilroy-Heavy.ttf)
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: lighter;
   src: url(../../Assets/fonts/Gilroy-Light.woff)
 }
 .Achievement-section{
@@ -22,7 +28,6 @@
     color: white;
     margin-left: 100px;
     font-size: 3.5vw;
-    font-family: Gilroy;
     letter-spacing: 0.7px;
   }
 }
@@ -49,7 +54,7 @@
       }
       .search-text {
         color: rgba(152, 162, 179, 1);
-        font-family: Gilroy;
+        font-weight: normal;
       }
     }
     .search-button {
@@ -61,7 +66,7 @@
       border-radius: 30px;
       color: white;
       font-size: 15px;
-      font-family: Gilroy;
+      font-weight: normal;
     }
   }
   .filter {
@@ -84,7 +89,7 @@
   }
 }
 .achievement-details {
-  font-family: Gilroy;
+  font-weight: normal;
   .achievement-name {
     display: flex;
     align-items: center;

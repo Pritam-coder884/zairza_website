@@ -5,9 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
-import "./Assets/fonts/Gilroy-Light.otf";
-import "./Assets/fonts/Gilroy-ExtraBold.otf";
-
 import { store } from "./Store/store";
 import { Provider } from "react-redux";
 

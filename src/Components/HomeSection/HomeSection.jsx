@@ -19,7 +19,7 @@ const HomeSection = ({
         </div>
       )}
       {description && <div className='description'>{description}</div>}
-      <div className='button' style={{ backgroundColor: buttonBackground,height:"2.5rem"}}>
+      <div className='button' style={{ backgroundColor: buttonBackground,height:"2.8  rem"}}>
         <Link to={buttonLink}><button
           className='home-section-btn'
           style={{ backgroundColor: buttonBackground ,fontSize:"1.1rem"}}
