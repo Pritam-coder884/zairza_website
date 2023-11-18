@@ -8,6 +8,7 @@ import Footer_img from "../../Assets/images/footer_img.png";
 import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,7 +27,7 @@ const Footer = () => {
         <div className="footer-container__right__bottom">
           <div className="footer-container__address">
           <div className="footer_address"><EmailIcon className="footer-address__icons" /><span className="footer_address_content">cet.sac.zairza@gmail.com</span></div>
-          <div className="footer_address"><PhoneIcon className="footer-address__icons" /><span className="footer_address_content">+91 7205883336</span></div>
+          <div className="footer_address"><PhoneIcon className="footer-address__icons" /><span className="footer_address_content">+91 9556629345</span></div>
           <div className="footer_address"><LocationOnIcon className="footer-address__icons" /><span className="footer_address_content">OUTR (CET Campus), Kalinga Nagar, Ghatikia, Bhubaneswar, Odisha</span></div>
           </div>
         </div>
@@ -35,19 +36,19 @@ const Footer = () => {
    <hr className="hr_style"/>
       <div className="footer-container_down">
         <div className="footer-container__social_icons">
-          <TwitterIcon className="footer-container__icons" />
+          <Link to="https://twitter.com/zairza_cetb"><TwitterIcon className="footer-container__icons" /></Link>
         </div>
         <div className="footer-container__social_icons">
-          <MailOutlineIcon className="footer-container__icons" />
+          <a href="mailto:cet.sac.zairza@gmail.com"><MailOutlineIcon className="footer-container__icons" /></a>
         </div>
         <div className="footer-container__social_icons">
-          <InstagramIcon className="footer-container__icons" />
+          <Link to="https://www.instagram.com/zairza.outr/"><InstagramIcon className="footer-container__icons" /></Link>
         </div>
         <div className="footer-container__social_icons">
-          <GitHubIcon className="footer-container__icons" />
+          <Link to="https://github.com/zairza-cetb"><GitHubIcon className="footer-container__icons" /></Link>
         </div>
       </div>
-      <p className="copy_right">@ Zairza Technical Club Pvt. Ltd. 2021. All rights reserved.</p>
+      <p className="copy_right">@ Zairza Technical Club Pvt. Ltd. 2023. All rights reserved.</p>
     </div>
   );
 };

@@ -26,7 +26,7 @@ const Navbar = () => {
         <Link to="/" onClick={close}><img src={Logo} alt="" className="logo" style={{width:"100px"}}/></Link>
       </div>
       <div className="navbar__right">
-        <Link to='/login'><h4 className="navbar__text">Sign In</h4></Link>
+        {/* <Link to='/login'><h4 className="navbar__text">Sign In</h4></Link> */}
         <MenuIcon className="navbar__menu" onClick={()=>{setShowNav(false);setAnimate(0)}}/>
       </div>
     </div>
@@ -53,19 +53,19 @@ const Navbar = () => {
       <Link to="/achievements" className="aboutUs-link" onClick={close}><div className="nav-button-content">Achievements</div></Link>
       <Link to="/domains" className="aboutUs-link" onClick={close}><div className="nav-button-content">Domains</div></Link>
       <Link to="/faq" className="aboutUs-link" onClick={close}><div className="nav-button-content">Faq</div></Link>
-      <Link to="/login" className="aboutUs-link" onClick={close}><div className="nav-button-content">Log In/Sign Up</div></Link>
+      {/* <Link to="/login" className="aboutUs-link" onClick={close}><div className="nav-button-content">Log In/Sign Up</div></Link> */}
       <div className="navbar-container_down">
         <div className="navbar-container__social_icons">
-          <TwitterIcon className="navbar-container__icons" />
+           <Link to="https://twitter.com/zairza_cetb"><TwitterIcon className="navbar-container__icons" /></Link>
         </div>
         <div className="navbar-container__social_icons">
-          <MailOutlineIcon className="navbar-container__icons" />
+        <a href="mailto:cet.sac.zairza@gmail.com"><MailOutlineIcon className="navbar-container__icons" /></a>
         </div>
         <div className="navbar-container__social_icons">
-          <InstagramIcon className="navbar-container__icons" />
+        <Link to="https://www.instagram.com/zairza.outr/"><InstagramIcon className="navbar-container__icons" /></Link>
         </div>
         <div className="navbar-container__social_icons">
-          <GitHubIcon className="navbar-container__icons" />
+        <Link to="https://github.com/zairza-cetb"><GitHubIcon className="navbar-container__icons" /></Link>
         </div>
       </div>
       </div>

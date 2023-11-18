@@ -1,7 +1,5 @@
 import React from "react";
 import "../../styles/common.style.scss";
-import SearchBar from "../../Components/common/Search/SearchBar";
-import Button from "../../Components/common/Button/Button";
 import Card from "../../Components/Card/Card";
 
 const Blog = () => {
@@ -36,10 +34,16 @@ const Blog = () => {
         </div>
       </div>
       <div className="event__search__box">
-        <SearchBar className="event__search" search_title="event" />
+        <div>
+          <input
+            type="text"
+            className="event__search"
+            placeholder="Search for any blog"
+          />
+        </div>
         <div className="event_btn_filter">
           <div className="event__btn">
-            <Button />
+            <button className="search-button-btn">Search</button>
           </div>
         </div>
       </div>

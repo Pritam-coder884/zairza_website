@@ -1,8 +1,7 @@
 import React from 'react'
 import "../../styles/common.style.scss";
 import FilterAltOutlinedIcon from "@mui/icons-material/FilterAltOutlined";
-import SearchBar from '../../Components/common/Search/SearchBar';
-import Button from '../../Components/common/Button/Button';
+
 import Card from '../../Components/Card/Card';
 
 const Project = () => {
@@ -34,10 +33,16 @@ const Project = () => {
             </div>
           </div>
           <div className="event__search__box">
-            <SearchBar className="event__search" search_title="event" />
+          <div>
+          <input
+            type="text"
+            className="event__search"
+            placeholder="Search for any Project"
+          />
+        </div>
             <div className="event_btn_filter">
               <div className="event__btn">
-                <Button />
+              <button className="search-button-btn">Search</button>
               </div>
               <div className="event__filter">
                 <p>Filter</p> <FilterAltOutlinedIcon />
