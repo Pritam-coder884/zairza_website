@@ -4,15 +4,16 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import HistoryToggleOffSharpIcon from "@mui/icons-material/HistoryToggleOffSharp";
 import PinDropOutlinedIcon from "@mui/icons-material/PinDropOutlined";
 import MailOutlineRoundedIcon from "@mui/icons-material/MailOutlineRounded";
+import { Link } from "react-router-dom";
 
-const Card = ({ data,width,alumniBackground,alumniColor}) => {
+const Card = ({ data,width,height,alumniBackground,alumniColor}) => {
   return (
-    <div className="card__container" style={{width}}>
+    <div className="card__container" style={{width, height}}>
       <div className="card__image__box">
         <img className="card__image" src={data.img} alt=""  />
       </div>
       <div className="card__content" style={{backgroundColor:alumniBackground,color:alumniColor}} >
-        <div className="card__title">{data.title}</div>
+        <div className="card__title">{data.link ? (<Link to={data.link}>{data.title}</Link>) : data.title}</div>
         <div className="card__desc_box">
           <div className="card__desc">{data.desc}</div>
           {data.detailNo && (
