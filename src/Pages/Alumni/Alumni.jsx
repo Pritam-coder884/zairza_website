@@ -87,7 +87,7 @@ const Alumni = () => {
         </div>
         <div className="alumni_card">
         {alumniData.map((details,id)=>{
-            return <Card data={details} key={id} width="270px" alumniBackground="#00255C" borderBottomLeft="none" borderBottomRight="none" alumniColor="white" />
+            return <Card data={details} key={id} width="270px" height="360px" alumniBackground="#00255C" borderBottomLeft="none" borderBottomRight="none" alumniColor="white" />
         })}
         </div>
     </div>

@@ -84,7 +84,7 @@ const BlogDetails = () => {
       </div>
       <div className="Details_card" style={{ marginBottom: "1rem" }}>
         {blogData.map((data, id) => {
-          return <Card data={data} key={id} width="360px" />;
+          return <Card data={data} key={id} width="360px" height="360px"/>;
         })}
       </div>
     </div>
