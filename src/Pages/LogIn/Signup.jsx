@@ -12,7 +12,9 @@ const Signup = () => {
     const [pass,setPass]=useState("");
     const [conPass,setConPass]=useState("");
     const [showPass,setShowPass]=useState(false);
+    const [cShowPass,setCShowPass]=useState(false);
     const [type,setType]=useState('password');
+    const [ctype,setCType]=useState('password');
     const handleSubmit=(event)=>{
         event.preventDefault();
         if(conPass===pass){
@@ -31,6 +33,16 @@ const Signup = () => {
             setType('password');
         }
         setShowPass(!showPass);
+    }
+    const cPasswordView=(event)=>{
+        event.preventDefault();
+        if(ctype==='password'){
+            setCType('text');
+        }
+        else{
+            setCType('password');
+        }
+        setCShowPass(!cShowPass);
     }
   return (
     <div>
@@ -59,9 +71,9 @@ const Signup = () => {
 
                 <div className='loginInputContainer'>
                 <label htmlFor="password">Confirm Password</label>
-                <input  value={conPass} type={type} placeholder='Enter your password' onChange={(e)=>setConPass(e.target.value)}/>
-                <span onClick={passwordView} className='inputIcon'>
-                    {showPass ? (<VisibilityOffIcon/>):(<VisibilityIcon/>)}
+                <input  value={conPass} type={ctype} placeholder='Enter your password' onChange={(e)=>setConPass(e.target.value)}/>
+                <span onClick={cPasswordView} className='inputIcon'>
+                    {cShowPass ? (<VisibilityOffIcon/>):(<VisibilityIcon/>)}
                 </span>
                 {/* <span className='fPass'>Forgot Password?</span> */}
                 
