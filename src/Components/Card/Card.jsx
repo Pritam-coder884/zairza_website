@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ data,width,height,alumniBackground,alumniColor}) => {
   return (
-    <div className="card__container" style={{width, height}}>
+    <div className="card__container" style={{width:width, height: height?height : "auto"}}>
       <div className="card__image__box">
         <img className="card__image" src={data.img} alt=""  />
       </div>
