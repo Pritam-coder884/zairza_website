@@ -143,6 +143,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        padding:1.2rem 2rem !important;
     }
     .alumni_heading{
         width: 75% !important;
@@ -157,7 +158,6 @@
     .events_heading_box{
         text-align: center;
     }
-    
 }
 @media(max-width:450px){
     .event_card{
