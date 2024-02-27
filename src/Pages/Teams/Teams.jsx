@@ -55,7 +55,7 @@ const Teams = () => {
         },
         {
             detailNo:9,
-            img:require("../../Assets/images/teams/random.webp"),
+            img:require("../../Assets/images/teams/binaya.webp"),
             title: "Binay Parida",
             desc: "EIE (2024)",
         },
@@ -79,13 +79,13 @@ const Teams = () => {
         },
         {
             detailNo:13,
-            img:require("../../Assets/images/teams/random.webp"),
+            img:require("../../Assets/images/teams/mukti.webp"),
             title: "Mukti Priyadarshi Ray",
             desc: "ME (2024)",
         },
         {
             detailNo:14,
-            img:require("../../Assets/images/teams/random.webp"),
+            img:require("../../Assets/images/teams/pankaj.webp"),
             title: "Pankaj Agarwal",
             desc: "IT (2024)",
         },
@@ -112,28 +112,34 @@ const Teams = () => {
         },
         {
             detailNo:18,
-            img:require("../../Assets/images/teams/random.webp"),
+            img:require("../../Assets/images/teams/sameer.webp"),
             title: "Sameer Dash",
             desc: "IT (2024)",
         },
         {
-            detailNo:19,
+            detailNo:17,
+            img:require("../../Assets/images/teams/random.webp"),
+            title: "SSiddharth Mohanty",
+            desc: "CSE (2024)",
+        },
+        {
+            detailNo:20,
             img:require("../../Assets/images/teams/random.webp"),
             title: "Suprasanna Das ",
             desc: "EE (2024)",
         },
         {
-            detailNo:20,
-            img:require("../../Assets/images/teams/random.webp"),
+            detailNo:21,
+            img:require("../../Assets/images/teams/tamana.webp"),
             title: "Tamanna Swain",
             desc: "EIE (2024)",
         },
-
-
-
-
-
-
+        {
+            detailNo:21,
+            img:require("../../Assets/images/teams/vivek.webp"),
+            title: "Vivek Parida",
+            desc: "IT (2024)",
+        }
 
     ]       
     return (
@@ -141,7 +147,8 @@ const Teams = () => {
             <div className="alumni_top_box">
                 <h1 className="alumni_heading">Lets Meet Our Teams</h1>
                 <p className='alumni_para'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis laboriosam quaerat explicabo repellendus dolores vero laudantium at aliquid velit voluptas iusto optio repudiandae nemo reprehenderit, corrupti asperiores doloribus illo soluta dolore? Illo libero ipsa illum voluptate, exercitationem eum harum nesciunt praesentium, odit modi, recusandae fugiat possimus error. Autem fuga mollitia quia a omnis nihil maxime aperiam assumenda aspernatur ullam impedit rem, voluptas esse molestiae, ab ea culpa praesentium unde. Quidem magni quibusdam et quasi consectetur dolor hic quaerat beatae!
+                Welcome to the heart of our organization—our incredible team! Behind every success story and every milestone achieved, there's a group of passionate individuals working together, bringing diverse skills, creativity, and dedication to the table. We take great pride in introducing you to the dynamic personalities that form the backbone of our company.
+Whether you're a valued client, a prospective partner, or simply someone curious about the people who drive our success, this page serves as a window into the talent, passion, and commitment that define our team. Join us on this virtual journey as we introduce you to the individuals who make up the fabric of our organization, shaping its character and contributing to its success.
                 </p>     
             </div>
             <div className="alumni_card">
